@@ -1,5 +1,5 @@
 /*
- *  Nima Dini <nima.dini@utexas.edu> | March 21, 2015
+ *  Nima Dini <nima.dini@utexas.edu>t | March 21, 2015
  *  461L Lecture on Monday 3/23 @ 9AM
  */
 
@@ -63,6 +63,6 @@ public class MultiplyServerTester {
 
     @AfterClass
     public static void tearDown() {
-        driver.quit();
+        driver.quit(); // shuts down the web driver instance (destroys it)
     }
 }
