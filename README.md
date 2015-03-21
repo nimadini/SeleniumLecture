@@ -1,8 +1,3 @@
-/*
- *  Nima Dini <nima.dini@utexas.edu> | March 21, 2015
- *  461L Lecture on Monday 3/23 @ 9AM
- */
-
 Selenium Lecture:
 
 Need help for running it? HaHa! Follow these steps:
