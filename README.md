@@ -19,8 +19,8 @@ You can also import these libraries within your eclipse/IntelliJ/etc.
 The steps above is one approach of using selenium. 
 Another approach is using selenium-server-standalone-x.y.z.jar instead of selenium-java-2.45.0.jar!
 The required jar files are already included within selenium-server-standalone-x.y.z.jar. 
-So you do not need to add all the jar files within the lib folder by following this second approach.
-
-Also don't forget to try this 5 minute tutorial: https://code.google.com/p/selenium/wiki/GettingStarted
+So you do not need to add all the jar files within the lib folder if you follow this second approach. (But you will need to add junit-x.x.jar)
 
 You need to make it work one way or the other! :)
+
+Also don't forget to try this 5 minute tutorial: https://code.google.com/p/selenium/wiki/GettingStarted
