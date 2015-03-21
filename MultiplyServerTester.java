@@ -33,7 +33,7 @@ public class MultiplyServerTester {
 
         */
 
-        driver = new FirefoxDriver();
+        driver = new FirefoxDriver(); // you can choose other drivers, like: ChromeDriver
         driver.get("http://multiply-server.appspot.com"); // visit the web app page
     }
 
