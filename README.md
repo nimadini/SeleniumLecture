@@ -1,5 +1,3 @@
-Selenium Lecture:
-
 Need help for running it? HaHa! Follow these steps:
 
 1. Download selenium-java-2.x.x.zip from http://www.seleniumhq.org/download/ and unzip it.
