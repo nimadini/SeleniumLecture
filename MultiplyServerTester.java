@@ -52,13 +52,13 @@ public class MultiplyServerTester {
         submitBtn.click();
 
         // You can use the same By.id approach here. I want you to see another method from By class here! :)
-        List<WebElement> allHeadingOnes = driver.findElements(By.xpath("//h3[@id='res']"));
+        List<WebElement> allHeadingThreesWithResID = driver.findElements(By.xpath("//h3[@id='res']"));
 
         // Make sure there is only one element in list
-        assertEquals(allHeadingOnes.size(), 1);
+        assertEquals(allHeadingThreesWithResID.size(), 1);
 
         // Make sure the result is correct
-        assertEquals(allHeadingOnes.get(0).getText(), "12 * 5 = 60");
+        assertEquals(allHeadingThreesWithResID.get(0).getText(), "12 * 5 = 60");
     }
 
     @AfterClass
