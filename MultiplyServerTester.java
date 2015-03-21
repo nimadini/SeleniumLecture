@@ -1,5 +1,5 @@
 /*
- *  Nima Dini | March 21, 2015
+ *  Nima Dini <nima.dini@utexas.edu> | March 21, 2015
  *  461L Lecture on Monday 3/23 @ 9AM
  */
 
@@ -51,7 +51,7 @@ public class MultiplyServerTester {
         WebElement submitBtn = driver.findElement(By.id("submit-btn"));
         submitBtn.click();
 
-        // You can use the same By.id approach here. I want you to see another method from By class here! :)
+        // It is OK to use the same By.id approach here. But, I want you to see another method from By class! :)
         List<WebElement> allHeadingThreesWithResID = driver.findElements(By.xpath("//h3[@id='res']"));
 
         // Make sure there is only one element in list
