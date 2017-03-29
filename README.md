@@ -22,5 +22,3 @@ The required jar files are already included within selenium-server-standalone-x.
 So you do not need to add all the jar files within the lib folder if you follow this second approach. (But you will need to add junit-x.x.jar)
 
 You need to make it work one way or the other! :)
-
-Also don't forget to try this 5 minute tutorial: https://code.google.com/p/selenium/wiki/GettingStarted
